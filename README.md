@@ -1,7 +1,5 @@
 # pump-fun-data-parsing-yellowstone-grpc: a real-time Pump.fun mint monitor
 
-[![CI](https://github.com/princedotrs/pump-fun-data-parsing-yellowstone-grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/princedotrs/pump-fun-data-parsing-yellowstone-grpc/actions/workflows/ci.yml)
-
 A TypeScript service that streams Solana transactions over Yellowstone gRPC (Geyser), picks out every new token created on Pump.fun, and decodes it into clean JSON: mint, bonding curve, creator, name, symbol and metadata URI.
 
 What you'll find here:
